@@ -55,5 +55,7 @@ Commands
 
 - npm install -g eas-cli
 - eas login
+- eas build:configure
+- eas build --platform android --profile preview
 - eas build -p android --profile development //To build a development APK (for testing on any device)
 - eas build -p android --profile production //To build a production APK (for release on Play Store or distribution)
